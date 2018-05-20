@@ -3,9 +3,9 @@ import numpy as np
 import cv2
 import json
 
-fn = r"datasets/parkinglot_1_480p.mp4"
-fn_yaml = r"datasets/parking2.yml"
-fn_out = r"datasets/output.avi"
+fn = r"data/parkinglot_1_480p.mp4"
+fn_yaml = r"data/parking2.yml"
+fn_out = r"data/output.avi"
 config = {'save_video': True,
           'text_overlay': True,
           'parking_overlay': True,
